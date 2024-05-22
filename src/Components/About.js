@@ -3,9 +3,8 @@ import AboutBackground from "../Assets/about-background.png";
 import AboutBackgroundImage from "../Assets/about-background-image.png";
 import {BsFillPlayCircleFill} from  "react-icons/bs";
 
- const About=()=>{
-    return 
-    
+const About = () => {
+    return (
         <div  className="about-section-container" >
             <div className="about-background-image-container">
                 <img src={AboutBackground} alt="" />
@@ -30,7 +29,7 @@ import {BsFillPlayCircleFill} from  "react-icons/bs";
                 </div>
             </div>
         </div>
-    
+    );
  };
 
  export default About;

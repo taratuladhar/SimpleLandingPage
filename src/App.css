@@ -27,10 +27,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 90px;
+  min-height: 100px;
 }
 .navbar-menu-container {
   display: none;
+}
+.nav-logo-container, .footer-logo-container span{
+  color: #ff9d0a;
+  font-size: 50px;
+  font-stretch: extra-expanded;
+  
 }
 .navbar-links-container a {
   margin-right: 3rem;
@@ -200,8 +206,13 @@ nav {
   display: flex;
   margin-top: 10rem;
 }
-.footer-logo-container {
+/* .footer-logo-container {
   max-width: 110px;
+} */
+.footer-logo-container span{
+  color: #ff9d0a;
+  font-size: 50px;
+  font-stretch: extra-expanded;
 }
 .footer-icons {
   margin-top: 2.5rem;
@@ -321,7 +332,8 @@ nav {
 }
 @media (max-width: 800px) {
   .nav-logo-container {
-    max-width: 140px;
+    max-width: 90px;
+    height: 10px;
   }
   .navbar-links-container {
     display: none;

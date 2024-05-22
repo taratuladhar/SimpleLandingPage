@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Logo from "../Assets/Logo.svg";
+// import Logo from "../Assets/logo.PNG";
 import {BsCart2} from "react-icons/bs";
 import {HiOutlineBars3} from "react-icons/hi2";
 import {Box,Drawer,List,ListItem, ListItemButton,ListItemIcon, ListItemText} from "@mui/material";
@@ -39,7 +39,8 @@ const Navbar = () => {
     return ( 
         <nav>
             <div className="nav-logo-container">
-                <img src={Logo} alt="" />
+                {/* <img src={Logo} alt="" /> */}
+                <span><b>SHOP HOP</b></span>
             </div>
             <div className="navbar-links-container">
                 <a href="">Home</a>

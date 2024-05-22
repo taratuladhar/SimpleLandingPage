@@ -15,7 +15,7 @@ const Home = () => {
             </div>
             <div className="home-text-section">
                 <h1 className="primary-heading">
-                    Hi! This is Sweta Tara Tuladhar
+                    Hi ! This is Home Page
                 </h1>
                 <p className="primary-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum sequi delectus nulla aliquam assumenda rem temporibus voluptates! Facilis quisquam ullam, molestias laborum, necessitatibus ipsum quia possimus itaque repellendus aspernatur culpa!
